@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+body {
+  font-family: 'Roboto', sans-serif; /* Áp dụng font chữ */
+  font-size: 14px; /* Kích thước chữ mặc định */
+  line-height: 1.5; /* Khoảng cách giữa các dòng */
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem; /* Kích thước chữ cho h1 */
+}
+
+h2 {
+  font-size: 2rem; /* Kích thước chữ cho h2 */
+}
+
+p {
+  font-size: 1rem; /* Kích thước chữ cho đoạn văn */
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.animotion-left-to-right {
+  @apply motion-translate-x-in-[-197%] motion-translate-y-in-[-3%] motion-duration-[2.25s]
+}
